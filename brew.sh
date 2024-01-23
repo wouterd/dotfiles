@@ -15,15 +15,21 @@ brew install coreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 
-# Install other useful binaries.
-brew install ack
-brew install git
-brew install aria2c
-brew install httpie
+brew install iterm2
 
-brew install Caskroom/cask/atom
-brew install Caskroom/cask/iterm2
-brew install Caskroom/cask/moom
+brew install ack
+brew install fd
+brew install gcc
+brew install gh
+brew install git
+brew install go
+brew install httpie
+brew install neovim
+brew install node
+brew install python@3.11
+brew install ripgrep
+brew install rust
+brew install wget
 
 
 # Remove outdated versions from the cellar.
