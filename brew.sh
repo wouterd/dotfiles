@@ -30,7 +30,7 @@ brew install python@3.11
 brew install ripgrep
 brew install rust
 brew install wget
-
+brew install tmux
 
 # Remove outdated versions from the cellar.
 brew cleanup
