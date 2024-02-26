@@ -31,6 +31,7 @@ brew install ripgrep
 brew install rust
 brew install wget
 brew install tmux
+brew install tree
 
 # Remove outdated versions from the cellar.
 brew cleanup
