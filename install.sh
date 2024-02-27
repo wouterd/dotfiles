@@ -1,4 +1,6 @@
 #!/bin/bash -eu
 
-[ ! -f ~/.tmux.conf ] && ln -s ./tmux.conf ~/.tmux.conf || echo "tmux.conf already exists"
+script_dir=$(cd $(dirname "$0") && pwd)
+
+[ ! -f "${HOME}/.tmux.conf" ] && ln -sf "${script_dir}/tmux.conf" "${HOME}/.tmux.conf" || echo ".tmux.conf already exists"
 
