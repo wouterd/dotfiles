@@ -17,6 +17,8 @@ brew install findutils
 
 brew install iterm2
 
+brew install jq
+brew install yq
 brew install ack
 brew install fd
 brew install gcc
