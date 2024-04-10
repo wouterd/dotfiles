@@ -30,7 +30,7 @@ brew install neovim
 brew install node
 brew install python@3.11
 brew install ripgrep
-brew install rust
+brew install rustup-init
 brew install wget
 brew install tmux
 brew install tree
